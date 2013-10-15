@@ -39,6 +39,8 @@ article {
 	.body {
 		p {
 			font-family: 'Open Sans', Verdana, sans-serif;
+			min-width: 100px;
+			width: 500px / 960px * 100%;
 		}
 	}
 
