@@ -2,7 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-$primary-color: hsla(300, 100%, 53%, 0.65);
+$primary-color: hsla(123, 100%, 43%, 0.67);
 
 h1 {
 	color: $primary-color;
@@ -10,4 +10,12 @@ h1 {
 
 .post-preview {
 	border-bottom: 5px dashed $primary-color;
+}
+
+p {
+	color: hsla(300, 100%, 58%, 0.74);
+}
+
+a, a:visited {
+  color: darken($primary-color, 30%);
 }
