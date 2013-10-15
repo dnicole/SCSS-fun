@@ -2,6 +2,8 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
 $primary-color: hsla(123, 100%, 43%, 0.67);
 
 h1 {
@@ -19,3 +21,29 @@ p {
 a, a:visited {
   color: darken($primary-color, 30%);
 }
+
+article {
+
+	h1.title {
+		font-style: italic;
+	}
+
+	.body {
+		p {
+			font-family: 'Open Sans', Verdana, sans-serif;
+		}
+	}
+
+	time {
+		font-style: italic;
+	}
+
+}
+
+
+
+
+
+
+
+
