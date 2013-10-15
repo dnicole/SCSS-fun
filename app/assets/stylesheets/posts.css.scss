@@ -6,6 +6,14 @@
 
 $primary-color: hsla(123, 100%, 43%, 0.67);
 
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+       -o-border-radius: $radius;
+          border-radius: $radius;
+}
+
 h1 {
 	color: $primary-color;
 }
@@ -36,6 +44,9 @@ article {
 
 	time {
 		font-style: italic;
+		padding: 4px;
+		border: 2px solid darken($primary-color, 10%);
+		@include border-radius(12px);
 	}
 
 }
